@@ -1,0 +1,102 @@
+{
+    "Simple HTML document": {
+        "prefix": "!doc",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html lang=\"en\">",
+            "<head>",
+            "   <meta charset=\"UTF-8\">",
+            "   <title>Title</title>",
+            "</head>",
+            "<body>",
+            "",
+            "</body>",
+            "</html>"
+        ],
+        "description": "Creates Bootstrap starter template"
+    },
+
+    "HTML document with header/main/footer": {
+        "prefix": "!hmfDoc",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html lang=\"en\">",
+            "<head>",
+            "   <meta charset=\"UTF-8\">",
+            "   <title>Title</title>",
+            "</head>",
+            "<body>",
+            "   <main>",
+            "       <header>",
+            "", 
+            "       </header>",
+            "   </main>",
+            "   <footer>",
+            "", 
+            "   </footer>",
+            "</body>",
+            "</html>"
+        ],
+        "description": "Creates simple html document with header/main/footer"
+    },
+
+    "Simple bar": {
+        "prefix": "!bar",
+        "body": [
+            "<nav>", 
+            "   <a> </a>", 
+            "   <a> </a>",
+            "   <a> </a>",
+            "</nav>"
+        ], 
+        "description": "Creates Simple menu/bar"
+    }, 
+
+    "Simple list": {
+        "prefix": "!list", 
+        "body": [
+            "<ul>", 
+            "   <li> </li>",
+            "   <li> </li>",
+            "   <li> </li>",
+            "</ul>"
+        ], 
+        "description": "Creates simple list"
+    }, 
+
+    "Simple numbered list": {
+        "prefix": "!listNum", 
+        "body": [
+            "<ol type=1>", 
+            "   <li> </li>",
+            "   <li> </li>",
+            "   <li> </li>",
+            "</ol>"
+        ], 
+        "description": "Creates simple numbered list"
+    },
+
+    "Simple start table": {
+        "prefix": "!table", 
+        "body": [
+            "<table>", 
+            "   <tr>", 
+            "       <td> </td>",
+            "       <td> </td>",
+            "       <td> </td>",
+            "   </tr>",
+            "   <tr>", 
+            "       <td> </td>",
+            "       <td> </td>",
+            "       <td> </td>",
+            "   </tr>",
+            "   <tr>", 
+            "       <td> </td>",
+            "       <td> </td>",
+            "       <td> </td>",
+            "   </tr>",
+            "</table>"
+        ], 
+        "description": "Creates empty simple table 3x3"
+    }
+}
